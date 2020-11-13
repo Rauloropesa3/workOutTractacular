@@ -1,0 +1,28 @@
+{
+  "name": "workouttractacular",
+  "version": "1.0.0",
+  "description": "track your workout",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rauloropesa3/workOutTractacular.git"
+  },
+  "author": "Raul Oropesa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Rauloropesa3/workOutTractacular/issues"
+  },
+  "homepage": "https://github.com/Rauloropesa3/workOutTractacular#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14",
+    "morgan": "^1.10.0",
+    "pkg": "^4.4.9"
+  }
+}
