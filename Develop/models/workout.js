@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const opts = { toJSON: { virtuals: true } };
+// const opts = { toJSON: { virtuals: true } };
 
 const workoutSchema = new Schema({
     day: {
@@ -32,13 +32,13 @@ const workoutSchema = new Schema({
              type: Number
          },
          distance: {
-             type: Number
+             type: Number,
          }
         }
       ]
     }, opts);
     
-    WorkoutSchema.virtual("totalDuration")
+    workoutSchema.virtual("totalDuration")
     .get(()=> {
         return this.exercises
         .reduce((total, exercise) => {
