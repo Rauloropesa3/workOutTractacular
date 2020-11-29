@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.use(logger("dev"));
-app.use(express.urenlcoded({extended:true}));
+app.use(express.urlenlcoded({extended:true}));
 app.use(express.json());
 app.use(express.static("public"));
 
