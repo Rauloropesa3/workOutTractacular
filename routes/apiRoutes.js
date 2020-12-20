@@ -22,7 +22,7 @@ module.exports = function (app) {
         res.status(400).json(err);
       });
   });
-  app.post("/api/workouts", (req, res) => {
+  app.post("api/workouts", (req, res) => {
     db.workout
       .create({})
       .then((dbData) => {
