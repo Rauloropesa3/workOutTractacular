@@ -1,7 +1,8 @@
 const db = require("../models");
 
 module.exports = function (app) {
-  // api routes, find routes
+  // API Routes
+  // find routes
   app.get("/api/workouts", (req, res) => {
     db.workout
       .find({})
@@ -12,6 +13,7 @@ module.exports = function (app) {
         res.status(400).json(err);
       });
   });
+
   app.get("/api/workouts/range", (req, res) => {
     db.workout
       .find()
@@ -22,7 +24,8 @@ module.exports = function (app) {
         res.status(400).json(err);
       });
   });
-  app.post("api/workouts", (req, res) => {
+
+  app.post("/api/workouts", (req, res) => {
     db.workout
       .create({})
       .then((dbData) => {
@@ -32,9 +35,10 @@ module.exports = function (app) {
         res.status(400).json(err);
       });
   });
-  app.post("api/workouts/range", (req, res) => {
+
+  app.post("/api/workouts/range", (req, res) => {
     db.workout
-      .find()
+      .create({})
       .then((dbData) => {
         res.send(dbData);
       })
@@ -42,11 +46,12 @@ module.exports = function (app) {
         res.status(400).json(err);
       });
   });
-  app.put("api/workouts/:id", ({ body, params }, res) => {
+
+  app.put("/api/workouts/:id", ({ body, params }, res) => {
     db.workout
       .findByIdAndUpdate(
         params.id,
-        { $push: { exercise: body } },
+        { $push: { exercises: body } },
         { new: true, runValidators: true }
       )
       .then((dbData) => {
