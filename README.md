@@ -1,57 +1,106 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# workoutTractacular(WorkoutTracker)
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Description
 
-## User Story
+---
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+Keep track of your workouts. Add a workout(reps, sets, duration) and the application will keep track of what you've done.
 
-## Business Context
+![License](https://img.shields.io/badge/LICENSE-MIT-maroon)
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+## Table of content
 
-## Acceptance Criteria
+---
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+- [Description](#description)
+- [Table of content](#table-of-content)
+- [Installation](#installation)
+- [Setup](#setup)
+- [Deploying](#deploying)
+- [Contributing](#contributing)
+- [Support/Questions](#supportquestions)
+- [License](#license)
 
-The user should be able to:
+## Installation
 
-  * Add exercises to a previous workout plan.
+---
 
-  * Add new exercises to a new workout plan.
+> **_get started_**:
 
-  * View the combined weight of multiple exercises on the `stats` page.
+- node js
+- mongodb
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+## Setup
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+---
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+- npm
+- npm install
+- npm i express
+- npm i mangoose
+- npm logger
+- npm path
 
-## Commit Early and Often
+---
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+![picture of the outtaline App](outtline1.png)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+---
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+![picture of the outtaline App](outtaline2.png)
 
-Follow these guidelines for committing:
+## Deploying
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+---
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+- Heroku
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+> **_Find me on Github:_**
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+**_At Github:_**
+<https://github.com/Rauloropesa3/workOutTractacular.git>
 
-We want you to have well over 200 commits by graduation, so commit early and often!
+**_Check out the Outtaline App Video_**
+<https://drive.google.com/file/d/1Dy7SE3UpQTHYDaGyxF6ZgkOgcfaYpQlL/view>
 
-## Submission on BCS
+**_Or just test out the app_**
+<https://pure-hollows-52483.herokuapp.com/>
 
-You are required to submit the following:
+## Contributing
 
-* The URL to the deployed application
+---
 
-* The URL to the GitHub repository
+**_step 1_**
+
+- **Option 1**
+
+  - Fork this repo!
+
+- **Option 2**
+  - Clone thr repo to your local machine
+
+**_step 2_**
+
+- Hack Away!!!
+- Create a new pull request
+
+## Support/Questions
+
+---
+
+Reach out!
+
+- Via email:
+  - alexoropes1982@yahoo.com
+
+## License
+
+---
+
+![License](https://img.shields.io/badge/LICENSE-MIT-maroon)
+
+- MIT License
+
+  <https://opensource.org/license/>
+
+  >
