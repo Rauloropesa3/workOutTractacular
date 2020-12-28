@@ -43,11 +43,15 @@ Keep track of your workouts. Add a workout(reps, sets, duration) and the applica
 
 ---
 
-![picture of the outtaline App](outtline1.png)
+![picture of the workoutTractacular App](assets#1.png)
 
 ---
 
-![picture of the outtaline App](outtaline2.png)
+![picture of the workoutTractacular App](assets#2.png)
+
+---
+
+![picture of the workoutTractacular App](assets#3.png)
 
 ## Deploying
 
